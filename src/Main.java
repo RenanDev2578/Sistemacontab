@@ -37,11 +37,11 @@ public class Main {
             Despesas[] despesas = new Despesas[quantidade];
             Despesas despessa = new Despesas();
             System.out.println("Digite o valor da  "+ i+ "° primeira despesa!");
-            despesas.valor = leia.nextDouble(); ;
+
             System.out.println("Digite o nome da  "+ i+ "° primeira despesa!");
-            despesas.nomedesp = leia.nextLine();
+
             System.out.println("Digite a quantidade de parcelas da  "+ i+ "° primeira despesa!");
-            despesas.parcelas = leia.nextint();
+
         }
 
 
